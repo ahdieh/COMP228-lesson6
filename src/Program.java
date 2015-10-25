@@ -1,9 +1,10 @@
-
+// DRIVER CLASS 
 public class Program {
 
 	public static void main(String[] args) {
-		// TODO Auto-generated method stub
-
+		System.out.println("jframe");
+		ExampleFrame frame = new ExampleFrame();
+		frame.setVisible(true);
 	}
 
 }
